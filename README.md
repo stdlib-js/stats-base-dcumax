@@ -48,6 +48,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import dcumax from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dcumax@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/stats-base-dcumax/tags). For example,
+
+```javascript
 import dcumax from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dcumax@v0.2.2-esm/index.mjs';
 ```
 
@@ -164,7 +169,7 @@ dcumax.ndarray( 4, x, 2, 1, y, -1, y.length-1 );
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@esm/index.mjs';
 import round from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-round@esm/index.mjs';
 import Float64Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-float64@esm/index.mjs';
-import dcumax from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dcumax@v0.2.2-esm/index.mjs';
+import dcumax from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dcumax@esm/index.mjs';
 
 var y;
 var x;
